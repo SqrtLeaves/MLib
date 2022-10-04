@@ -1,3 +1,44 @@
 In an ordered-set with the least-upper-bound property, for any bounded subset, sup or inf exists.
 Baby-Rudin; Theorem-1.11
 ****
+There exists an ordered-field set-of-real-numbers which has the least-upper-bound property.
+Baby-Rudin; Theorem-1.19
+****
+Property of complex-numbers
+Baby-Rudin; Theorem-1.33
+****
+Schwarz inequality of complex-numbers
+Baby-Rudin; Theorem-1.35
+****
+Every infinite subset of a countable set is countable
+Baby-Rudin; Theorem-2.8
+****
+Union of infinite or finite countable sets is countable
+Baby-Rudin; Theorem-2.12
+****
+The set of all sequences whose elements are the digit 0 and 1 is uncountable
+Baby-Rudin; Theorem-2.14
+****
+Every neighborhood is an open-set
+Baby-Rudin; Theorem-2.19
+****
+Every neighborhood of a limit point of a set-S contains infinite point of the set-S
+Baby-Rudin; Theorem-2.20
+****
+A set-E is open iff its complement is closed
+Baby-Rudin; Theorem-2.23
+****
+A set-E is closed iff its complement is open
+Baby-Rudin; Corollary-2.23
+****
+Union of open-set is open
+Baby-Rudin; Theorem-2.24
+****
+Intersection of closed-set is closed
+Baby-Rudin; Theorem-2.24
+****
+Intersection of finite open-set is open
+Baby-Rudin; Theorem-2.24
+****
+Union of finite closed-set is closed
+Baby-Rudin; Theorem-2.24

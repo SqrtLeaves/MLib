@@ -12,6 +12,8 @@ def print_hi(name):
 def write2file(file_name, content):
     output = open(file_name, "w+")
     for word in content:
+        if len(word) < 1:
+            continue
         output.write("{}\n".format(word))
     output.close()
 
@@ -22,12 +24,12 @@ if __name__ == '__main__':
     # 打开文件
     skip_word = open("Data/skip_word").read().split("\n")
     important_word = open("Data/important_word").read().split("\n")
-    data = open("Data/knowledge").read().split("****")
+    data = open("Data/knowledge").read().split("****\n")
 
     # 遍历所有thm
     for thm in data:
         lines = thm.split("\n")
-        if len(lines) < 2:
+        if len(lines) < 1:
             continue
 
         # 遍历每个单词，筛选关键词
